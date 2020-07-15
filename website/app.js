@@ -5,7 +5,7 @@ const dataBox = document.querySelector(".upper-box");
 // Set Base URL and API Key
 const baseURL = "http://api.openweathermap.org/data/2.5/weather?zip=";
 // Personal API Key for OpenWeatherMap API
-const apiKey = "&appid=5a69172b4bf5786b121ed4101f0c782d ";
+const apiKey = "&appid=/*Place ur personal id here */";
 
 // Get the date
 let date = new Date();
