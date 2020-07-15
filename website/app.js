@@ -1,6 +1,4 @@
 
- //Personal API Key : 5a69172b4bf5786b121ed4101f0c782d 
-
 // Set Global variables */
 const dataBox = document.querySelector(".upper-box");
 
