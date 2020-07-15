@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pangolin&display=swap");
+* {
+  font-family: "Pangolin", cursive;
+}
+body {
+  background-color: rgb(255, 233, 206);
+  font-family: "Pangolin", cursive;
+  font-family: -apple-system, BlinkMacSystemFont, cursive;
+}
+
+#app {
+  margin: 4rem auto;
+  width: 70vw;
+  height: 80vh;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 10px 18px #d9b89a;
+  border-radius: 10px 60px 10px;
+  background-image: url("images/background1.jpg");
+}
+
+.upper-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.lower-box {
+}
+#zip,
+#feelings {
+  width: 40vw;
+  height: 7vh;
+  border: none;
+  margin: 10px;
+  border-radius: 2rem;
+  text-align: center;
+  color: #fff;
+}
+.holder {
+}
+
+.entry {
+  color: #324450;
+  background-color: #c4a99873;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+#entryHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+#date {
+}
+
+#temp {
+}
+
+#content {
+}
+
+.headline {
+  height: 2em;
+  font-size: 1.3em;
+  text-align: center;
+  color: #fff;
+  background-color: #312f2e;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.title {
+  text-align: center;
+  margin: 2rem;
+  color: #324450;
+}
+.zip {
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+  display: block;
+  font-size: 0.9em;
+  color: #260035;
+}
+
+input {
+  display: block;
+  background: #0009;
+  font-size: 0.9em;
+  border: none;
+}
+
+button {
+  background: #000;
+  color: #ffc3ae;
+  font-size: 1.1rem;
+  border: none;
+  height: 50px;
+  width: 100px;
+  box-shadow: 2px 5px 10px #000;
+  margin: auto;
+  display: block;
+  border-radius: 1.2rem;
+}
+button:active {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+h1 {
+  font-size: 36px;
+}
+
+textarea {
+  background: #0009;
+  font-size: 20px;
+  height: 150px;
+  width: 300px;
+  resize: none;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+}
